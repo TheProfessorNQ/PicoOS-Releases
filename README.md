@@ -16,3 +16,9 @@ Open **Settings → Update Status → F1**. Enter checks Stable. F2 changes to P
 If power is interrupted during installation, restore power with the same card in place. If the card is unreadable, restore the signed **picoos.pup** to `/picoos/armed.pup` on a readable FAT32 card and cold-start the Calc, or use your USB rescue image. A normal update includes the PicoOS system and apps. The keyboard controller has a separate update procedure.
 
 Each release includes third-party license notices. No GitHub account is needed on the device.
+
+## App Store
+
+On build 3 or later, open **App Store** from the launcher. Press F2 to choose All, Updates or New, then select a title and press Enter to see its available and installed versions. Press Enter again to install or update. An app update keeps its current SD location. You can refresh the catalog with F1. The Calc downloads compiled packages anonymously.
+
+The catalog contains signed releases from enrolled PicoOS app developers. Contributors with the private development checkout can follow its `docs/APP_STORE.md` publishing instructions. App releases can be published independently of firmware releases.
